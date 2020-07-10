@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <div class="logo"><span></span></div>
+      </div>
+      <div class="back">
+        <h1>Stop Watch<span>Created By Amir Maavia</span></h1>
+        <div class="time">
+         <center> <h3>
+              <span id="hour">00</span> :
+              <span id="min">00</span> :
+              <span id="sec">00</span> :
+              <span id="milisec">00</span>
+            </h3>
+          </center>
+        <ul>
+          <center>
+          <li><button onclick="startStop()" id="start" type="button" class="btn btn-danger">Start</button></li>
+          <li><button onclick="reset()" type="button" class="btn btn-primary">Reset</button></li>
+        </center>
+          </ul>
+      </div>
+      </div>
+    </div>
+      <script src="script.js"></script>
+
+    </body>
+</html>
